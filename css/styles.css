@@ -1,0 +1,260 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-text {
+  font-family: "Poppins", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+nav {
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  line-height: 28px;
+  position: relative;
+  left: 250px;
+}
+
+a {
+  font-family: "Poppins", serif;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2f281e;
+}
+
+a:hover {
+  color: #ffc392;
+}
+
+.btn {
+  font-family: "Poppins", serif;
+  background-color: #ffffff;
+  border-radius: 4px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  width: 175px;
+  height: 46px;
+}
+
+.btn--signin {
+  color: #173a56;
+  background-color: #ffffff;
+  width: 102px;
+  height: 46px;
+  border: 1px solid #bcd0e5;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  left: 300px;
+}
+
+.btn--signup {
+  width: 102px;
+  height: 46px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  left: 310px;
+}
+
+.btn--signupnow {
+  position: relative;
+  top: 50px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #ffc392;
+}
+
+.links {
+  position: relative;
+  top: 40px;
+}
+
+.underlined {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+.fa-play {
+  color: #ff9900;
+  padding: 10px;
+}
+
+.fa-square-check {
+  color: #ff9900;
+  font-size: 30px;
+  padding: 10px;
+  position: relative;
+  top: 5px;
+  /* I have tried to add rounded corners with border-radius, but I can not get it to work. */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+  max-width: 1000px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+
+.card img {
+  max-width: 450px;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 54px;
+}
+
+h3 {
+  margin-top: -10px;
+  font-family: "Poppins", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.h3--row {
+  max-width: 539px;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins", serif;
+}
+
+.p--small {
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.p--big {
+  font-size: 18px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.p--bold {
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #979797;
+  background-color: #ffffff;
+  max-width: 1000px;
+}
+
+.menu-container {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  font-family: "Poppins", serif;
+  line-height: 32px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: #ffc392;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position:relative;
+  top: 150px;
+}
+
